@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Bartek's lists",
+    pageTitle: "🪴 Quartz 4.0",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -70,7 +70,7 @@ const config: QuartzConfig = {
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.TableOfContents(),
-      Plugin.CrawlLinks({ markdownLinkResolution: "shortest", indexFrontmatterWikilinks: true }),
+      Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
     ],
