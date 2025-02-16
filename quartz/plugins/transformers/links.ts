@@ -32,10 +32,10 @@ const defaultOptions: Options = {
   openLinksInNewTab: false,
   lazyLoad: false,
   externalLinkIcon: true,
-  indexFrontmatterWikilinks: false,
+  indexFrontmatterWikilinks: true,
 }
 
-function getFullInternalLink(dest: RelativeURL, fileSlug: SimpleSlug): FullSlug {
+export function getFullInternalLink(dest: RelativeURL, fileSlug: SimpleSlug): FullSlug {
   // url.resolve is considered legacy
   // WHATWG equivalent https://nodejs.dev/en/api/v18/url/#urlresolvefrom-to
   const url = new URL(dest, "https://base.com/" + stripSlashes(fileSlug, true))

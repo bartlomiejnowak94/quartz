@@ -7,6 +7,7 @@ url: https://letterboxd.com/film/the-chronicles-of-narnia-the-lion-the-witch-and
 imdb_url: http://www.imdb.com/title/tt0363771/maindetails
 tmdb_url: https://www.themoviedb.org/movie/411/
 seria_movie: "[[Seria The Chronicles of Narnia]]"
+nr_seri: "1"
 year: 2005
 directors:
   - "[[Andrew Adamson]]"
@@ -87,7 +88,6 @@ cast:
   - "[[Sophie Winkleman]]"
   - "[[Mark Wells]]"
   - "[[Rachael Henley]]"
-nr_seri: "1"
 ---
 cover:: ![[tFOQ4q6JnHcdw58ThL4SzFv37NT-0-1000-0-1500-crop.webp|cover]]
 
